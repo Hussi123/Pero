@@ -1,0 +1,353 @@
+:root {
+    --green: #006157;
+}
+
+.products {
+    background-color: var(--green);
+    position: relative;
+}
+
+.products .container {
+    margin: 0 auto;
+    max-width: 65vw;
+    padding-top: 73px;
+    padding-bottom: 106px;
+    position: relative;
+    z-index: 1;
+}
+
+.product__head {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 46px;
+}
+
+.products .section__title {
+    text-align: start;
+    margin: 0;
+}
+
+.page__links {
+    margin-top: 23px;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.page__links a,
+.page__links span {
+    display: inline-block;
+    color: #FFF;
+    cursor: pointer !important;
+    opacity: 0.8;
+}
+
+.products .active {
+    opacity: 1;
+}
+
+.product__right {
+    margin-top: 22px;
+}
+
+.product__right {
+    background: #FFE5CE;
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 17px;
+    position: relative;
+}
+
+.product__right i {
+    position: absolute;
+    right: 17px;
+    transition: 500ms;
+    color: #006157;
+}
+
+.product__right select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 12px;
+    color: #006157;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.product__right:focus>i {
+    transform: rotate(-180deg);
+    cursor: pointer;
+}
+
+.product__ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    border-bottom: 1.19314px solid #f9e0c86d;
+}
+
+.product__li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.3177px;
+    line-height: 17px;
+    color: #F9E0C8;
+    opacity: 0.5;
+    padding: 13px;
+    transition: all ease 500ms;
+    border-bottom: transparent solid 4px;
+
+}
+
+.product__li:hover {
+    color: #FAE0C8;
+    opacity: 1;
+    border-bottom: #FAE0C8 solid 4px;
+}
+
+.product__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0;
+    gap: 35px;
+    justify-content: center;
+}
+
+.product__card {
+    position: relative;
+    background: #FFE2CA;
+    opacity: 0.99;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 24px 41px;
+    max-width: 275px;
+    transition: all ease 500ms;
+}
+
+.product__card:hover {
+    box-shadow: 0px 18px 38px rgba(255, 225, 199, 0.75);
+
+}
+
+.product-text {
+    color: #006157;
+}
+
+.product__see {
+    position: absolute;
+    right: -12%;
+    top: 20%;
+    transition: all ease 500ms;
+    display: none;
+}
+
+.product__arrow {
+    position: absolute;
+    right: -11%;
+    bottom: 20%;
+    display: none;
+    transition: all ease 500ms;
+}
+
+.product__card:hover>.product-img {
+    display: block;
+}
+
+.pagination-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.left-arrow,
+.right-arrow {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+
+.pagination__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.pagination__item {
+    padding: 6px 8px 7px;
+    background: #7F9A8A;
+    border-radius: 5px;
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.0975px;
+    line-height: 25px;
+    text-align: center;
+    color: #176B62;
+}
+
+.pagination__item:hover {
+    background: #F9E0C8;
+    transform: scale(1.2);
+}
+
+
+.pagination__active {
+    background: #F9E0C8;
+    transform: scale(1.2);
+}
+
+
+
+/* ourservise end */
+.servise .container {
+    max-width: 90vw !important;
+}
+
+@media (max-width:1120px) {
+    .about .section__title span {
+        display: none;
+    }
+}
+
+@media (max-width:1050px) {
+    .container {
+        max-width: 90vw;
+    }
+
+    .about .section__title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .about__head {
+        display: none;
+    }
+
+    .about .about__wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .about .section__title,
+    .about .about__text {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .about .about__img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .bizning__tajribamiz .content {
+        width: 100%;
+        max-width: 900px;
+        background: #68dbcf85;
+        opacity: 1;
+        border-radius: 24px;
+        padding: 29px 37px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .content__top .section__title {
+        font-size: 28px;
+    }
+
+    .proisvodstvo__wrapper {
+        display: block;
+    }
+
+    .international__paper .play__img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .international__text,
+    .proisvodstvo__text,
+    .card__text {
+        font-size: 15px;
+    }
+
+
+
+    .card__wrapper {
+        justify-content: space-around;
+    }
+
+    .our__card3 {
+        display: none;
+    }
+
+    .content__text {
+        font-size: 11px;
+    }
+
+    .card__title {
+        font-size: 15px;
+        margin: 21px 0 28px;
+    }
+
+    .our__service .card__text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:420px) {
+    .about__text {
+        font-size: 16px;
+    }
+
+    .about .container {
+        padding: 20px 0;
+    }
+
+    .international__paper {
+        position: relative;
+    }
+
+    .international__paper .section__title {
+        font-size: 30px;
+    }
+
+    .international__paper .play__img {
+        position: absolute;
+        width: 41px;
+        height: 41px;
+        top: 20px;
+        right: 10px;
+    }
+
+    .our__service {
+        border: solid red 1px;
+        padding: 50px 0;
+    }
+
+    .card__title {
+        font-size: 13px;
+        margin: 21px 0 28px;
+    }
+
+    .our__service .card__text {
+        font-size: 8px;
+        line-height: 16px;
+    }
+}

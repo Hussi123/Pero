@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-Thin.woff2') format('woff2'),
+        url('ZonaPro-Thin.woff') format('woff'),
+        url('ZonaPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-Bold.woff2') format('woff2'),
+        url('ZonaPro-Bold.woff') format('woff'),
+        url('ZonaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

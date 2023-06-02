@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/image/backround__img.png">
+
+    <title>Uyga vazifa 7</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./fonts/zona-pro-cufonfonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+</head>
+
+<body>
+
+
+    <header class="header">
+        <label for="togler" class="header__nav-togler">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+
+
+        <img class="header__logo-img" src="./image/logo.png" alt="header__logo-img">
+
+        <nav class="header__nav">
+            <a href="./about/index.html" class="header__nav-link">About us</a>
+            <a href="./products/index.html" class="header__nav-link">Products</a>
+            <a href="#" class="header__nav-link">Videolarimiz</a>
+            <a href="#" class="header__nav-link">Yangiliklar</a>
+            <a href="#" class="header__nav-link">Foydalanish shartlari</a>
+        </nav>
+
+        <div class="header__additional">
+            <div class="header__langs">
+                <button class="header__lang-btn">
+                    UZ
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="header__lang-list">
+                    <div class="header__lang-item">UZ</div>
+                    <div class="header__lang-item">RU</div>
+                </div>
+            </div>
+            <button class="header__contact-btn">
+                <b>+998 99 011 89 34</b>
+                <span>aloqa uchun</span>
+            </button>
+        </div>
+
+    </header>
+
+    <input type="checkbox" id="togler" hidden>
+
+    <div class="header__mobile-nav">
+        <div class="header__mobile__header">
+            <img class="header__mobile-logo" src="./image/logo.png" alt="">
+
+            <label for="togler" class="header__mobile-close">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+        </div>
+
+        <div class="header__mobile__links">
+            <a href="./about/index.html" class="header__mobile__link"> About us </a>
+            <a href="./products/index.html" class="header__mobile__link"> Producs </a>
+            <a href="#" class="header__mobile__link"> Videolerimiz </a>
+            <a href="#" class="header__mobile__link"> Yangiliklarimiz </a>
+            <a href="#" class="header__mobile__link"> Foydelanish shartlari</a>
+        </div>
+    </div>
+
+    <!-- 
+    <main class="main">
+        <div class="main__content">
+            <div class="main__img-1">
+                <div class="change__wrapper">
+                    <button class="change__btn">
+                        <img src="./image/change__img.svg" alt="" class="change__img">
+                    </button>
+                    <p class="change__text">O'zgartirish uchun bosing</p>
+                </div>
+            </div>
+            <div class="main__img-2">
+                <div class="main__image-shadov"></div>
+                <div class="main__text-wrapper">
+
+                    <div class="main__title">Продукцию «Pero» </div>
+                    <p class="main__text">Мы верим, что каждый имеет возможность пользоваться продукцией самого высокого
+                        качества, поэтому наши сильные бренды делают качество «Pero» доступным.
+                    </p>
+                </div>
+            </div>
+            <img class="hand__img" src="./image/main__img-hand.png" alt="">
+            <img class="top__feather" src="./image/top__feather.png" alt="top__feather">
+            <img class="midle__feather" src="./image/midle__feather.png" alt="midle__feather">
+            <img class="small__feather" src="./image/small__feather.png" alt="small__feather">
+            <img class="big__feather" src="./image/big__feather.png" alt="big__feather">
+        </div>
+        <div class="our__about">Biz haqimizda batafsil</div>
+
+    </main>
+    -->
+
+    <section class="products ">
+        <div class="container">
+            <div class="section__title">
+                Our products
+            </div>
+            <div class="section__sub-title">
+                Bizda 80 dan kop mahsulotlarimiz bor ular lorem ipsum color
+            </div>
+            <div>
+                <div class="card__wrapper">
+                    <button class="prew__btn"><img class="arrow__left" src="./image/arrow__left.svg" alt=""></button>
+                    <div class="cards">
+
+                        <div class="card">
+                            <div class="card__title">Бумажные продукции</div>
+                            <div class="card__img">
+                                <img src="./image/card__img-1.png" alt="">
+                            </div>
+                            <div class="card__change">
+                                <button class="card__change-btn">
+                                    <img class="card__change-img" src="./image/change__img.svg" alt="card change img">
+                                    <div class="change__text">Click for more</div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__title">Бумажные продукции</div>
+                            <div class="card__img">
+                                <img src="./image/card__img-2.png" alt="">
+                            </div>
+                            <div class="card__change">
+                                <button class="card__change-btn">
+                                    <img class="card__change-img" src="./image/change__img.svg" alt="card change img">
+                                    <div class="change__text">Click for more</div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__title">Бумажные продукции</div>
+                            <div class="card__img">
+                                <img class="card__img-3" src="./image/card__img-3.png" alt="">
+                            </div>
+                            <div class="card__change">
+                                <button class="card__change-btn">
+                                    <img class="card__change-img" src="./image/change__img.svg" alt="card change img">
+                                    <div class="change__text">Click for more</div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card card__mobil">
+                            <div class="card__title">Бумажные продукции</div>
+                            <div class="card__img">
+                                <img class="card__img-2" src="./image/card__img-2.png" alt="">
+                            </div>
+                            <div class="card__change">
+                                <button class="card__change-btn">
+                                    <img class="card__change-img" src="./image/change__img.svg" alt="card change img">
+                                    <div class="change__text">Click for more</div>
+                                </button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <button class="next__btn"><img class="arrow__left" src="./image/arrow__left.svg" alt=""></button>
+                </div>
+                <div class="card__pagination">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot dot__active"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+
+            <div class="card__btns">
+                <button type="button" class="skachat__katalog">
+                    <img src="./image/cloud__doun.png" alt="">
+                    Skachat katalog
+                </button>
+                <button type="button" class="top__tovar">
+                    <img src="./image/cloud__doun.png" alt="">
+                    Топ товары
+                </button>
+            </div>
+        </div>
+        <img src="./image/feather__small.png" alt="feather__small-1" class="feather__small-1">
+        <img src="./image/feather__small.png" alt="feather__small-2" class="feather__small-2">
+        <img src="./image/feather__midle-1.png" alt="feather__midle-1" class="feather__midle-1">
+        <img src="./image/feather__midle-2.png" alt="feather__midle-2" class="feather__midle-2">
+        <img src="./image/feather__big.png" alt="feather big" class="feather__big">
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__wrapper">
+                
+                <div class="left__content">
+                    <div class="about__title">biz haqi-
+                        mizda</div>
+                    <div class="about__text">
+                        Pero ko’plab ishchilarni bir maqsad yo’lida jamlagan korxona bo'lib, u turli xildagi salfetkalar
+                        ishlab chiqarishga ixtisoslashgan. Biz o’z mijozlarimizga doim eng yaxshi va sifatlisini
+                        ulashamiz.
+                    </div>
+                </div>
+
+                <div class="avarage__content">
+                    <img class="pero__milk" src="./image/pero__milk.svg" alt="">
+                </div>
+
+                <div class="right__content">
+                    <div class="right__text">poklik
+                        siri</div>
+                    <button class="aboutright__btn">MOree
+                    </button>
+                </div>
+
+            </div>
+            <button class="aboutBottom-title section__btn">biz haqimizda batafsil</button>
+            <button class="mobile__btn">MOree
+            </button>
+
+        </div>
+        <img src="./image/feather__about-1.png" alt="feather__about-1" class="feather__about-1">
+        <img src="./image/feather__about-2.png" alt="feather__about-2" class="feather__about-2">
+        <img src="./image/feather__about-3.png" alt="feather__about-3" class="feather__about-3">
+        <img src="./image/slhadow__bottom.svg" alt="shadow" class="pero__shadow">
+    </section>
+
+    <section class="videos">
+
+        <div class="container">
+            <div class="section__title">
+                Bizning videolar
+            </div>
+            <p class="section__sub-title">
+                bizning 20 dan ortiq videolarimiz va bloglarimiz mavjud
+            </p>
+            <div class="slider__wrapper">
+                <button class="slide__arrow prew__slide"><img class="arrow__left" src="./image/arrow__left.svg"
+                        alt=""></button>
+                <div class="video__slide"></div>
+                <div class="video__slide active"></div>
+                <div class="video__slide"></div>
+                <button class="slide__arrow next__slide"><img class="arrow__right" src="./image/arrow__left.svg"
+                        alt=""></button>
+            </div>
+
+            <buttton class="section__download">
+                <img src="./image/cloud__doun.png" alt="">
+                Videolarni yuklab olsh
+            </buttton>
+
+        </div>
+
+        <img src="./image/feather__small.png" alt="feather__small-1" class="feather__small-1">
+        <img src="./image/feather__small.png" alt="feather__small-2" class="feather__small-2">
+        <img src="./image/feather__midle-1.png" alt="feather__midle-1" class="feather__midle-1">
+        <img src="./image/feather__midle-2.png" alt="feather__midle-2" class="feather__midle-2">
+        <img src="./image/feather__big.png" alt="feather big" class="feather__big">
+
+    </section>
+
+    <section class="blog">
+
+        <div class="container">
+
+            <div class="section__title">
+                blog posts
+            </div>
+
+            <div class="section__sub-title">bizning 20 dan ortiq video larimiz va vloglarimiz mavjud</div>
+
+            <div class="blog__content">
+                <div class="blog__item">
+                    <div class="blog__img blog__img-1">
+                        <img class="" src="./image/blog__img-item-1.png" alt="">
+                        <p class="blog__item-text">Pero nafislik nimadr brbalo text boladi
+                            kjhi Pero nafislik nimadr brbalo text boladiPero nafislik </p>
+                    </div>
+
+                    <div class="blog__img blog__img-2">
+                        <img class="" src="./image/blog__img-item-2.png" alt="">
+                        <p class="blog__item-text">Pero nafislik nimadr brbalo text boladi
+                            kjhi Pero nafislik nimadr brbalo text boladiPero nafislik </p>
+                    </div>
+
+                    <div class="blog__img blog__img-3">
+                        <img class="" src="./image/blog__img-item-2.png" alt="">
+                        <p class="blog__item-text">Pero nafislik nimadr brbalo text boladi
+                            kjhi Pero nafislik nimadr brbalo text boladiPero nafislik </p>
+                    </div>
+                    <img class="sandiq" src="./image/sandiq.svg" alt="">
+
+                    <button class="all__blog-post">All Blog post</button>
+                </div>
+
+                <button class="blog__post-btn section__btn">Barcha blog postlarimiz</button>
+            </div>
+            <div class="blog__post-text">BLOG POSTS</div>
+
+            <img class="blog__img1" src="./image/blog__1img.png" alt="">
+            <img class="blog__img2" src="./image/blog__3img.png" alt="">
+
+            <img class="blog__img3" src="./image/blog__2img.png" alt="">
+            <a href="#"> </a>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="for__comunication">
+
+        <div class="container">
+            <div class="left__elements">
+                <div class="section__title">
+                    Aloqa uchun
+                </div>
+                <p class="left__content-text">
+                    malumoitlarizzi yozb qoldiring va bizani mutahasislarimiz sizga qongiroq qlwadi
+                </p>
+
+                <form action="POST">
+                    <input type="text" placeholder="Ismingiz">
+
+                    <input type="text" placeholder="Telefon raqamingiz">
+
+                    <textarea name="Xabar" id="" placeholder="Xabar" cols="55" rows="5"></textarea>
+
+                    <button type="button" class="left__elements-btn">
+                        Yuborish
+                        <img src="./image/form__ingrident-img.png" alt="">
+                    </button>
+                </form>
+
+            </div>
+
+            <div class="right__elements">
+
+                <div class="images__right-elements">
+                    <img src="./image/right__element__img.png" alt="" class="right__elements-img">
+                </div>
+
+                <div class="right__elements-text-large">
+                    Pero - poklik siri
+                </div>
+                <p class="right__elements-text">
+                    OOO Pero holding company 2022
+                </p>
+            </div>
+        </div>
+
+
+        <img src="./image/feather__small.png" alt="feather__small-1" class="feather__small-1">
+        <img src="./image/feather__small.png" alt="feather__small-2" class="feather__small-2">
+        <img src="./image/feather__midle-2.png" alt="feather__midle-2" class="feather__midle-2">
+        <img src="./image/feather__big.png" alt="feather big" class="feather__big">
+
+    </section>
+
+
+    <section class="service">
+
+        <div class="container">
+
+            <div class="service__content service__content1">
+                <img src="./image/footer__logo.svg" alt="">
+                <p class="service__text">
+                    Quo is the most easier way for transaction
+                    with your friends and family, No matter where are you.
+                    An exceptional way for make your life one step easier.
+                </p>
+                <div class="social__icon">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+                <div class="service__text service__text2">
+                    Yumshoq va mayin salfetkalar, boshqa mahsulotlarning eng sifatlisni siz Pero'dan topasiz. Barcha qulayliklar 
+                </div>
+            </div>
+
+
+            <div class="service__content service__content2">
+                <ul>
+                    <li><a href="#"></a>Company</a></li>
+                    <li><a href="#"></a>About Us</a></li>
+                    <li><a href="#"></a>Contact Us</a></li>
+                    <li><a href="#"></a>Support</a></li>
+                    <li><a href="#"></a>News/Blog</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#"></a>Terms</a></li>
+                    <li><a href="#"></a>Privacy Policy</a></li>
+                    <li><a href="#"></a>Terms of Usage</a></li>
+                    <li><a href="#"></a>Areas of</a></li>
+                    <li><a href="#"></a>coverage</a></li>
+                </ul>
+
+
+                <ul>
+                    <li><a href="#"></a>Company</a></li>
+                    <li><a href="#"></a>84/E/2 West,</a></li>
+                    <li><a href="#"></a>Jafrabad</a></li>
+                    <li><a href="#"></a>Liverpool, Uk</a></li>
+                    <li><a href="#"></a>+8801757410907</a></li>
+                    <li><a href="#"></a>903</a></li>
+                </ul>
+            </div>   
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p class="copy__left">
+                Copyright © PERO | Designed by
+            </p>
+            <p class="abba__marjeting">
+                abba marketing
+            </p>
+            <p class="Powered">
+                - Powered by
+            </p>
+            <p class="copy__right">
+                ABBA
+            </p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

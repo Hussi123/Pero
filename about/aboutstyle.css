@@ -1,0 +1,549 @@
+:root {
+    --green: #006157;
+    --ZonPro:'Zona Pro',sans-serif;
+}
+
+.about {
+    background-color: var(--green);
+    position: relative;
+}
+.about .container,
+.international__paper .container,
+.proisvodstvo .container,
+.our__service .container {
+    max-width: 70vw;
+}
+
+.about .container {
+    margin: 0 auto;
+    padding-top: 73px;
+    padding-bottom: 106px;
+    position: relative;
+    z-index: 1;
+}
+
+.about__head {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 46px;
+}
+
+.about .section__title {
+    text-align: start;
+    margin: 0;
+}
+
+.page__links {
+    margin-top: 23px;
+    display: flex;
+    gap: 5px;
+}
+
+.page__links a,
+.page__links span {
+    display: inline-block;
+    color: #FFF;
+    opacity: 0.8;
+}
+
+.about .active {
+    opacity: 1;
+}
+
+
+
+.about__right {
+    margin-top: 22px;
+    background: #FFE5CE;
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.about__right i {
+    position: absolute;
+    right: 17px;
+    transition: 500ms;
+    color: #006157;
+}
+
+.about__right select {
+    padding: 5px 17px;
+    border: solid red 2px;
+    text-indent: 1px;
+    text-overflow: '';
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 12px;
+    color: #006157;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.about__right:focus>i {
+    transform: rotate(-180deg);
+    cursor: pointer;
+}
+
+.about__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.about__wrapper .section__title {
+    max-width: 420px;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 2px;
+}
+
+.about__text {
+    margin-top: 18px;
+    max-width: 420px;
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.8571px;
+    line-height: 27px;
+    color: #FFE1C7;
+}
+
+.background__img-ellips {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    width: 100%;
+    height: 470px;
+    opacity: 0.3;
+}
+
+.background__img-about {
+    position: absolute;
+    bottom: 0;
+    opacity: 0.3;
+    width: 100%;
+    z-index: 1;
+}
+
+.about .about__img {
+    width: 50%;
+}
+
+/* about end */
+
+
+/* bizning__tajribamiz start */
+.bizning__tajribamiz {
+    padding: 50px 0 107px;
+    background-color: var(--green);
+}
+
+.bizning__tajribamiz .container {
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    max-width: 900px;
+    background: #68dbcf85;
+    opacity: 1;
+    border-radius: 56px;
+    padding: 58px 74px 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content__top img {
+    background: transparent;
+    opacity: 1;
+}
+
+.content__top span {
+    font-size: 48px;
+    font-family: "Zona Pro";
+    transform: translate(-45px, 20px);
+}
+
+.content__img {
+    max-width: 110px;
+}
+
+.content__text {
+    max-width: 130px;
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.bizning__tajribamiz-img {
+    width: 188px;
+    height: 283px;
+    position: absolute;
+    top: -150px;
+    left: -200px;
+}
+
+/* bizning__tajribamiz end */
+
+/* international__paper start  */
+.international__paper {
+    padding: 38px 0 78px;
+    background: var(--green);
+}
+
+.international__paper .container {
+    position: relative;
+}
+
+.international__top {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+
+.international__paper .section__title {
+    margin: 0;
+    max-width: 634px;
+    text-align: start;
+}
+
+.international__text {
+    max-width: 800px;
+    font-family: 'Zona Pro', sans-serif;
+    opacity: 0.8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.8571px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.international__paper-img {
+    position: absolute;
+    top: 200px;
+    right: 0px;
+}
+
+/* international__paper  end*/
+
+/* proisvodstivo start */
+.proisvodstvo {
+    background: var(--green);
+    padding: 78px 0 65px;
+}
+
+.proisvodstvo .container {
+    position: relative;
+}
+
+.proisvodstvo__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.proisvodstvo .section__title {
+    margin: 0;
+    text-align: start;
+    font-size: 42px;
+    max-width: 341px;
+    margin-bottom: 63px;
+}
+
+.proisvodstvo__text {
+    max-width: 341px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.8571px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+}
+
+.proisvodstvo__btn {
+    font-weight: 400;
+    font-size: 16.0683px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    background: #2D8D80;
+    border-radius: 15.2059px;
+    padding: 14px;
+    width: 100%;
+    max-width: 215px;
+}
+
+.proisvodstvo__right-item {
+    position: relative;
+    max-width: 583px;
+    max-height: 304px;
+}
+
+.proisvodstvo__right-item img {
+    width: 100%;
+}
+
+.proisvodstvo__right-item .proisvodstvo__img {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.prisvodstvo__img-shadov {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    object-fit: cover;
+    top: -40px;
+    max-width: 583px;
+}
+
+.proisvodstivo-img {
+    position: absolute;
+    top: -100px;
+    left: -160px;
+}
+
+/* proisvodstivo end */
+
+
+
+/* ourservise start */
+.our__service {
+    background: var(--green);
+    padding: 50px 0 132px 0;
+}
+
+.our__service .container {
+    position: relative;
+}
+
+.card__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.our__card {
+    text-align: center;
+    color: #fff;
+}
+
+.card__img {
+    height: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__img img {
+    width: 50%;
+}
+
+.card__title {
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 49px 0px 49px;
+}
+
+.card__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 290px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about__img-1 {
+    position: absolute;
+    top: 17%;
+    left: -17%;
+}
+
+.about__img-2 {
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.our__service-img-1 {
+    position: absolute;
+    top: -100px;
+    right: 300px;
+}
+
+.our__service-img-2 {
+    position: absolute;
+    left: -150px;
+    bottom: -100px;
+}
+
+
+
+/* ourservise end */
+
+@media (max-width:1120px) {
+    .about .section__title span {
+        display: none;
+    }
+}
+
+@media (max-width:1050px) {
+    .container {
+        max-width: 90vw;
+    }
+
+    .about .section__title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .about__head {
+        display: none;
+    }
+
+    .about .about__wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .about .section__title,
+    .about .about__text {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .about .about__img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .bizning__tajribamiz .content {
+        width: 100%;
+        max-width: 900px;
+        background: #68dbcf85;
+        opacity: 1;
+        border-radius: 24px;
+        padding: 29px 37px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .content__top .section__title {
+        font-size: 28px;
+    }
+
+    .proisvodstvo__wrapper {
+        display: block;
+    }
+
+    .international__paper .play__img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .international__text,
+    .proisvodstvo__text,
+    .card__text {
+        font-size: 15px;
+    }
+
+
+
+    .card__wrapper {
+        justify-content: space-around;
+    }
+
+    .our__card3 {
+        display: none;
+    }
+
+    .content__text {
+        font-size: 11px;
+    }
+    .card__title{
+        font-size: 15px;
+        margin: 21px 0 28px;
+    }
+
+    .our__service .card__text{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:420px) {
+    .about__text {
+        font-size: 16px;
+    }
+
+    .about .container {
+        padding: 20px 0;
+    }
+    
+    .international__paper{
+        position: relative;
+    }
+
+    .international__paper .section__title{
+        font-size: 30px;
+    }
+
+    .international__paper .play__img{
+        position: absolute;
+        width: 41px;
+        height: 41px;
+        top :20px ;
+        right: 10px;
+    }
+
+    .our__service{
+        border: solid red 1px;
+        padding: 50px 0;
+    }
+
+    .card__title{
+        font-size: 13px;
+        margin: 21px 0 28px;
+    }
+
+    .our__service .card__text{
+        font-size: 8px;
+        line-height: 16px;
+    }
+}
